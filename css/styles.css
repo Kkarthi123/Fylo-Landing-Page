@@ -1,0 +1,216 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    color: rgba(187, 184, 184, 0.938) !important;
+}
+.nav-bg{
+    background-color:  hsl(217, 28%, 15%) !important;
+}
+.nav .nav-link{
+    color:  rgba(187, 184, 184, 0.938);
+}
+.nav .nav-link:hover{
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+.jumbotron{
+    border-radius: 0% !important;
+    background-color:  hsl(217, 28%, 15%) !important;
+    position: relative;
+    padding: 0 !important;
+    min-height: 150vh;
+    margin-bottom: 0 !important;
+    z-index: -2; 
+}
+.main-content h2{
+    font-weight: 700;
+    line-height: 4rem;
+}
+.main-content p{
+    font-weight: 400;
+    font-size: 20px;
+    width: 450px;
+    margin: auto;
+    
+}
+.main-content .start a button{
+   width: 250px;
+   height: 40px;
+   border-radius: 50px;
+  
+}
+.jumbotron .bg-img{
+    position: absolute;
+    top: 630px;
+    z-index: -1;
+}
+.card-section{
+    background-color: hsl(218, 28%, 13%);
+}
+.card-section .card-body p{
+    color: rgba(187, 184, 184, 0.938);
+}
+.card-section .card{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.productive-section{
+    background-color:  hsl(218, 28%, 13%);
+}
+.productive-section p{
+    color:  rgba(187, 184, 184, 0.938);
+}
+.productive-section h2{
+    font-weight: 700;
+}
+.productive-section a{
+   border-bottom: 1px solid hsl(176, 68%, 64%);
+   color: hsl(176, 68%, 64%);
+}
+.productive-section a:hover{
+    border-bottom: 1px solid rgba(187, 184, 184, 0.938);
+    color: rgba(187, 184, 184, 0.938);
+    text-decoration: none;
+ }
+.testimonial-section{
+     background-color:  hsl(218, 28%, 13%);
+     background-image: url(../images/bg-quotes.png);
+     background-repeat: no-repeat;
+     background-position: 110px 86px;
+     min-height: 100vh;
+     padding-top: 70px;
+    
+ }
+ 
+ .testimonial-section img {
+     width: 50px;
+     height: 50px;
+ }
+ .testimonial-section .card-text{
+     font-size: 15px;
+     font-weight: 400;
+     color: rgba(187, 184, 184, 0.938);
+ }
+ .testimonial-section .profile h6{
+     color: white;
+     font-size: 13px;
+     margin-bottom: 1px;
+     margin-top: 20px;
+ }
+ .card-body{
+     padding: 10px !important;
+ }
+ .card{
+     background-color:  hsl(217, 28%, 15%) !important;
+     border: none !important;
+     margin-top: 50px;
+     box-shadow: 2px 2px  5px  rgba(85, 84, 84, 0.137),
+                 2px 2px  5px  rgba(85, 84, 84, 0.192);
+ }
+ .testimonial-section .profile p{
+     color:  rgba(187, 184, 184, 0.938);
+     font-size: 9px;
+ }
+ .started{
+     z-index: 1;
+     position: relative;
+     top: 165px;
+ }
+ .form-group{
+     margin-bottom: 0 !important;
+ }
+ .started .form-group input{
+     border-radius: 70px;
+     color: black;
+     font-size: 16px;
+     font-weight: 600;
+    
+     
+ }
+ .started .card-input button{
+     width: 100%;
+     height: 70%;
+     display: inline-block;
+     background-color: rgb(9, 115, 236);
+     font-size: 13px;
+     color: white;
+     outline-color: burlywood;
+     border: none;
+     cursor: pointer;
+     border-radius: 50px;
+ }
+ .started .card-input button:hover{
+     opacity: 0.5;
+ }
+ .started .card-input .invalid-feedback{
+     color: red;
+     display: block;
+     margin-left: 20px; 
+ }
+ .footer-section {
+     padding-top: 170px;
+     background-color:  hsl(216, 53%, 9%);
+     
+ }
+ .footer-section .nav-brand{
+     width: 150px;
+     height:  150px;
+ }
+ h6{
+    color: rgba(187, 184, 184, 0.938);
+}
+ .About a:hover,h6:hover{
+     text-decoration: none;
+     color:hsl(176, 68%, 64%);
+ }
+
+
+ 
+ /* media queries */
+@media(max-width:576px){
+    .card{
+        margin-bottom: 3rem;
+    }
+  
+}
+@media(max-width:576px){
+    .jumbotron{
+        min-height: 110vh;
+    }
+    .card .card-img{
+        padding-top: 3rem;
+    }
+    .testimonial-section{
+       height: 230vh;
+    }
+   
+}
+@media(max-width:992px){
+    .started .form-group .invalid-feedback{
+        margin-bottom: 20px;
+    }
+    .started .card-input button{
+        height: 180%;
+    }
+    .started .card-input{
+        padding-bottom: 25px;
+    }
+    .testimonial-section{
+        min-height: 100vmax;
+    }
+}
+@media(max-width:827px){
+    .testimonial-section{
+        min-height: 110vmax;
+    }
+}
+@media(max-width:768px){
+    .testimonial-section{
+        min-height: 200vmax;
+    }
+}
